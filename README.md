@@ -1,10 +1,13 @@
 "  PYTHON MICROSERVICES APPLICATION   DEPLOYMENT INTO KUBERNETES "
 
 "  Python video to audio converter microservice application "
+
 INTRODUCTION :
+
 Hello everyone, I Elamparithi M, am a DevOps engineer, I am very passionate about doing innovative projects in the cloud as well as DevOps, especially am a Kubernetes enthusiast, recently I have done end-to-end microservices application deployment into Kubernetes cluster using Helm for component deployment. This document outlines my project's details, including its objectives, components, and challenges I faced during deployment.
 
 PROJECT OBJECTIVES:
+
 Deploy a Python-based microservices application in an EKS cluster.
 Utilize Helm for deploying components like MongoDB, RabbitMQ, and PostgreSQL.
 Implement an API gateway with endpoints for user authentication, video upload, and audio download.
@@ -23,7 +26,9 @@ Helm for Kubernetes deployment
 MongoDB, RabbitMQ, and PostgreSQL for data storage
 JWT for authentication
 Kubernetes for container orchestration
+
 DEPLOYMENT STEPS :
+
       1. Write Dockerfiles for Microservices:
 Create a Dockerfile for each microservice (Authentication Service, Converter Service, Gateway Service, and Notification Service).
 Use a base Python image and install the necessary dependencies for each microservice in their respective Dockerfiles.
@@ -40,7 +45,9 @@ Stored user credentials securely in MongoDB.
      5 . Queueing and Conversion:
 Utilized RabbitMQ as a queue service for video-to-audio conversion tasks.
 Converter service converts uploaded videos to audio files and stores them in PostgreSQL.
+
 CHALLENGES  I FACED:
+
 Authentication Setup:
 Ensuring secure authentication mechanisms with JWT and MongoDB.
 Queue Service Configuration:
@@ -51,9 +58,11 @@ LESSONS LEARNED:
 Importance of secure authentication and authorization mechanisms.
 Efficient use of queue services for background tasks.
 Proper management of data storage and conversions in a microservices architecture.
+
 GITHUB LINK : [ https://github.com/elam1234/microservices-python-Kubernetes.git ]
 
 CONCLUSION:
+
 In conclusion, the deployment of the Python microservices application into Kubernetes using Helm showcases expertise in DevOps and cloud technologies. Challenges I faced, such as authentication setup and queue service configuration, provided valuable learning experiences. For more details, please refer to the project's GitHub repository: https://github.com/elam1234/microservices-python-Kubernetes.git.
 
 
